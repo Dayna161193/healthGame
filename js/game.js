@@ -3,8 +3,22 @@ var game = {
         score : 0,
         steps: 0,
         start: false,
+        questions: [
+        "People with diabetes should not exercise",
+        "Diabetes causes more deaths a year than breast cancer and AIDS combined",
+        "Having diabetes nearly doubles your chance of having a heart attack",
+        "Being overweight or ​ obese raises the risk of becoming diabetic",
+        "A person with diabetes ​type 1 developed the disease because their 
+            immune system destroyed the insulin­producing beta cells",
+        "Drinking sugary drinks is linked to type 2 diabetes",
+        "Diabetes can often be detected by carrying out a urine test",
+        "Type 1 diabetes usually first appears in childhood or adolescence.",
+        " Frequent urination is on the Symptoms of diabetes ",
+        "One person can transmit diabetes to another person"],
         newHiScore: false,
         muted: false
+        
+
     },
 
     resources: [
@@ -26,6 +40,7 @@ var game = {
         {name: "hit", type: "audio", src: "data/sfx/"},
         {name: "lose", type: "audio", src: "data/sfx/"},
         {name: "wing", type: "audio", src: "data/sfx/"},
+        {name: "questions", type: "json", src: "data/"},
 
     ],
 
